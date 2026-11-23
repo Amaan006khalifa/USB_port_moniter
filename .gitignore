@@ -1,0 +1,9 @@
+venv/
+Output/
+build/
+dist/
+__pycache__/
+*.pyc
+*.spec
+logs/
+usb_events.jsonl

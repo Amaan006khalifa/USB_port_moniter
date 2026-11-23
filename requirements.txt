@@ -1,0 +1,17 @@
+pyudev; sys_platform != "win32"
+wmi; sys_platform == "win32"
+pywin32; sys_platform == "win32"
+python-magic; sys_platform != "win32"
+python-magic-bin; sys_platform == "win32"
+yara-python
+google-api-python-client
+google-auth
+google-auth-oauthlib
+Pillow>=10.0.0
+requests>=2.31.0
+WMI>=1.5.1
+pywin32>=306
+
+# usbguard/ package (service.py, detector.py, ...) ki extra libraries yahan add karni hongi.
+# Agar detector.py me YARA use hota hai to ye line uncomment karo:
+# yara-python>=4.5.0
